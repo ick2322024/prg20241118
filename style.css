@@ -5,7 +5,15 @@ body{
 }
 
 h1 {
-    font-size: large;
-    font-weight: bold;
-    color: blue;
+    color:yellow;
+    background-color: black;
+}
+
+h2{
+    color: antiquewhite;
+    background-color: black;
+}
+
+h6 {
+    color: red;
 }
