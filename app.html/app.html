@@ -18,9 +18,36 @@
 
                  <input type="radio" id="contactChoice2" name="contact"/>
                  <label for="contactChoice2">館長の話を聞く会</label>
+          
             </div>
-        <fieldset>
-    <form>        
+            <div>
+                お名前
+                <input type="text">
+            </div>
+            <div>
+                電話番号
+                <input type="text">
+            </div>
+        </fieldset>
+        <input type="button" value="送信" onclick="ques()">
+
+        <script>
+             function ques(){
+                if(Window.confirm"(申し込みますか？")){
+                    alert("完了しました")
+                    setTimeout(()=> {
+                        location.href = "./index.html"
+                    }, 3000);
+                }else{
+                    send();
+                }
+            }
+
+            function send(){
+                alert("できませんでした")
+            }
+        </script>
+    </form>        
             <h6>この天文台は実在しません</h6>
     </body>
 </html>
